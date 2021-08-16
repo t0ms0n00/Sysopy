@@ -1,0 +1,10 @@
+Jeśli liczba kucharzy/dostawców jest mniejsza lub równa pojemności pieca i stołu to program wykonuje się poprawnie, semafory odpowiednio blokują procesy.
+Semafory odpowiadające za pojemność stołu i pieca w przypadku gdy oba miejsca są wypełnione wartościami dobrze chronią dostępu i nie pozwalają na wstawienie
+kolejnej pizzy póki któraś nie zostanie wyjęta.
+
+W przypadku, gdy dostawców jest więcej niż 5, nie dojdzie do zablokowania, najwyżej część z nich nie będzie miała roboty jeśli stół jest pusty.
+
+Jeśli liczba kucharzy przekroczy 5 to program nie zadziała poprawnie - zablokuje się. Dzieje się tak dlatego, że pięciu kucharzy zdąży wstawić pizzę do pieca
+i będzie czekało na jej wyjęcie. W tym czasie szósty kucharz równo z nimi przygotowywał pizzę i zajmuje miejsce przy piecu - blokuje piec, natomiast inny
+semafor, przechowujący ilość dostępnego miejsca w piecu, ma w tym momencie wartość 0 i zablokuje proces tego kucharza. W ten sposób wszyscy kucharze się poblokowali,
+bo ci co nie wstawili pizzy nie wstawią póki ktoś nie wyjmie, a ci co wstawili nie wyjmą póki kucharz który chce wstawić nie odejdzie od pieca.

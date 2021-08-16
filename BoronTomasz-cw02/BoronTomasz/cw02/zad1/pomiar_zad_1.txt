@@ -1,0 +1,12 @@
+Test for files: long1.txt : long2.txt
+Time for lib: 46.000000
+Test for files: long1.txt : long2.txt
+Time for sys: 66.00000
+Test for files: short1.txt : short3.txt
+Time for lib: 0.000000
+Test for files: short1.txt : short3.txt
+Time for sys: 0.000000
+Test for files: long1.txt : long3.txt
+Time for lib: 41.000000
+Test for files: long1.txt : long3.txt
+Time for sys: 59.00000

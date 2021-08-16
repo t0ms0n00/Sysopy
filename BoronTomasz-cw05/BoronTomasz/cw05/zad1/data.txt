@@ -1,0 +1,7 @@
+składnik1 = cat /etc/passwd
+składnik2 = ls -l | grep n
+składnik3 = grep oo
+
+składnik1 | składnik3
+składnik1
+składnik2

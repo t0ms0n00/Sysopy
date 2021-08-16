@@ -1,0 +1,1 @@
+Zestaw zrealizowany w pełni.

@@ -1,0 +1,34 @@
+Na początku chciałbym opisać organizację zadania:
+
+    - przygotowany został plik Makefile z kompilacją i testami, kompilacja to make [fork/exec], uruchomienie testów: make test_[fork/exec], jest
+      również opcja make clean, natomiast wykonuje się ona przy opcji kompilacji, więc nie trzeba samodzielnie czyścić
+
+    - w przypadku wersji z fork udało mi się że z linii poleceń podaje się jeden argument, natomiast w wersji exec nie udało mi się tego tak zrobić,
+      ponieważ tworzyła mi się pętla nieskończona, dlatego musiałem dodać drugi parametr z linii poleceń, działający jako lock, który powinien być
+      zawsze ustawiony na fałsz - wtedy po pierwszym wywołaniu drugie się z automatu przestawi na z wartością prawda i pozwoli wykonać program dokładnie
+      jeden raz; ogólnie najlepiej wydaje mi się odpalić testy z Makefile'a, zebrałem tam wszystkie do danej wersji i się odpalają jeden po drugim
+
+    - do sprawdzenia poprawności działania posłużyłem się komendą cat /proc/[nr pid]/status z grepem na potrzebną informację - zwraca liczbę w systemie 
+      szesnastkowym, którą jeśli przerobimy na binarną to czytając od prawej strony można zobaczyć, które sygnały są ignorowane/zablokowane,
+      z racji że z systemu szesnastkowego można łatwo przekonwertować liczbę (lub jej potrzebny fragment) do postaci binarnej to nie robiłem funkcji konwersji
+
+Wyniki:
+
+Zacznę od tabeli, która określa czy sygnał zachowuje się tak samo po użyciu fork/exec jak w pierwszym wywołaniu programu:
+
+Y - zachowuje się tak jak w macierzystym
+N - zachowuje się inaczej niż w macierzystym
+# - nie sprawdzano
+
+      |  ignore     |    handler    |     mask    |   pending
+----------------------------------------------------------------
+fork  |      Y      |       Y       |      Y      |      N
+----------------------------------------------------------------
+exec  |      Y      |       #       |      Y      |      Y
+----------------------------------------------------------------
+
+Wnioski:
+
+W obu przypadkach maski sygnałów są takie same jak w procesie, z którego zaczynaliśmy.
+Proces potomny nie widzi nieobsłużonych sygnałów procesu macierzystego, podczas gdy po wywołaniu funkcji exec nieobsłużone sygnały są takie same jak w 
+procesie wywołującym.

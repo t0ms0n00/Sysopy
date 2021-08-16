@@ -1,0 +1,8 @@
+Test copy from simple.txt to pudzian.txt, switch Mozart to Pudzian
+Time for sys: 0.000000
+Test copy from simple.txt to pudzian_lib.txt, switch Mozart to PudzianLIB
+Time for lib: 0.000000
+Test copy from long.txt to long_lib.txt, switch ore to AAAAAAAAAAA
+Time for lib: 19.000000
+Test copy from long.txt to long_sys.txt, switch ore to AAAAAAAAAAA
+Time for sys: 227.0000

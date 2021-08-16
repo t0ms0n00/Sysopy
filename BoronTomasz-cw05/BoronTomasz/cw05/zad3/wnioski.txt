@@ -1,0 +1,12 @@
+Na początku organizacyjnie, w Makefile są przygotowane testy, zaleca się aby po KAŻDYM teście zrobić make clean, ponieważ bez tego fragment kodu sprawdzający
+poprawność kopii zwróci błąd, jeśli do tego samego pliku wynikowego dopisujemy drugie i kolejne wywołania maina.
+
+Potoki nazwane działają dla procesów niezależnych.
+
+W przypadku z jednym konsumentem, jedyne błędy kopiowania uzyskałem dla zapisu fragmentu o długości większej niż stała PIPE_BUF.
+Dzieje się tak, ponieważ każda wartość mniejsza od PIPE_BUF zapewnia nam atomiczność operacji zapisu, a po jej przekroczeniu nie mamy tej gwarancji.
+
+Przypadki z wieloma konsumentami zachowują się bardziej losowo, ponieważ w przypadku odczytu nie ma gwarancji atomiczności operacji. 
+Trafiły się zarówno przypadki, gdy całość się zapisywała (częściej w przypadku z jednym producentem, bo wtedy mamy zawsze pauzę 1-2 sekundy,
+podczas której można odczytać i wpisać dane do pliku wynikowego), ale zdarzało się gubić pewne fragmenty, szczególnie w relacji wiele - wiele.
+Dlatego w przypadku, gdy wiele procesów czyta z tego samego potoku lepiej jest zastosować inne rozwiązanie.

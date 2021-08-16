@@ -1,0 +1,6 @@
+Program na POSIXIE zachowuje się analogicznie jak na systemie V, czyli blokuje go tylko sytuacja, gdy jest więcej kucharzy niż miejsc w piecu.
+Ponownie mamy do czynienia z sytuacją, że kucharze mogą się wzajemnie poblokować, gdy piec jest pełny i akurat przed nim czeka kolejny kucharz z pizzą,
+zablokuje on dojście do pieca, więc żaden kucharz który ma "wolne ręce" nie może sięgnąć po pizzę.
+W każdym innym przypadku testy wykazały, że program działa poprawnie, a semafory dobrze pilnują zawartości pamięci wspólnej, żeby nie doszło do nadpisania wartości,
+którą będziemy chcieli użyć.
+Do wniosków mogę dodać jeszcze, że prostsze wydawało się zrobienie zadania na POSIXIE, głównie ze względu na przyjazną obsługę sterowania semaforami.

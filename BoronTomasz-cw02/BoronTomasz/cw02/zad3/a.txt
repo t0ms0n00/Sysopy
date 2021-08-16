@@ -1,0 +1,2 @@
+SYS Version
+Liczb parzystych jest 559872

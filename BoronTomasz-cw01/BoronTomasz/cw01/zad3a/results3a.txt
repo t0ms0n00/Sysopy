@@ -1,0 +1,402 @@
+static
+------------------------------------------------
+Test Just for time
+Array of blocks of size 50 was created
+Real time: 0.000093
+User time: 0.000000
+System time: 0.000000
+
+Merged 30 pairs of files
+Real time: 1.249646
+User time: 0.290000
+System time: 0.950000
+
+shared
+------------------------------------------------
+Test Just for time
+Array of blocks of size 50 was created
+Real time: 0.000146
+User time: 0.000000
+System time: 0.000000
+
+Merged 30 pairs of files
+Real time: 0.816413
+User time: 0.280000
+System time: 0.530000
+
+dynamic
+------------------------------------------------
+Test Just for time
+Array of blocks of size 50 was created
+Real time: 0.000095
+User time: 0.000000
+System time: 0.000000
+
+Merged 30 pairs of files
+Real time: 0.736845
+User time: 0.290000
+System time: 0.440000
+
+static
+------------------------------------------------
+Test trivial
+Array of blocks of size 50 was created
+Real time: 0.000098
+User time: 0.000000
+System time: 0.000000
+
+Merged 2 pairs of files
+Real time: 0.000302
+User time: 0.000000
+System time: 0.000000
+
+Row 2 from block 0 deleted
+Real time: 0.000004
+User time: 0.000000
+System time: 0.000000
+
+Block 1 deleted
+Real time: 0.000002
+User time: 0.000000
+System time: 0.000000
+
+Merged 2 pairs of files
+Real time: 0.000666
+User time: 0.000000
+System time: 0.000000
+
+------------------------------------------------
+Test easy
+Array of blocks of size 50 was created
+Real time: 0.000022
+User time: 0.000000
+System time: 0.000000
+
+Merged 29 pairs of files
+Real time: 0.001216
+User time: 0.000000
+System time: 0.000000
+
+------------------------------------------------
+Test medium
+Array of blocks of size 1500 was created
+Real time: 0.000099
+User time: 0.000000
+System time: 0.000000
+
+Merged 143 pairs of files
+Real time: 0.081070
+User time: 0.000000
+System time: 0.070000
+
+------------------------------------------------
+Test hard
+Array of blocks of size 2000 was created
+Real time: 0.000049
+User time: 0.000000
+System time: 0.000000
+
+Merged 184 pairs of files
+Real time: 0.065568
+User time: 0.010000
+System time: 0.050000
+
+Block 1 deleted
+Real time: 0.000090
+User time: 0.000000
+System time: 0.000000
+
+Block 2 deleted
+Real time: 0.000034
+User time: 0.000000
+System time: 0.000000
+
+Merged 260 pairs of files
+Real time: 0.080139
+User time: 0.020000
+System time: 0.060000
+
+Row 1 from block 4 deleted
+Real time: 0.000004
+User time: 0.000000
+System time: 0.000000
+
+------------------------------------------------
+Test harder
+Array of blocks of size 2000 was created
+Real time: 0.000032
+User time: 0.000000
+System time: 0.000000
+
+Merged 184 pairs of files
+Real time: 0.055811
+User time: 0.030000
+System time: 0.020000
+
+Block 1 deleted
+Real time: 0.000142
+User time: 0.000000
+System time: 0.000000
+
+Block 2 deleted
+Real time: 0.000011
+User time: 0.000000
+System time: 0.000000
+
+Merged 260 pairs of files
+Real time: 0.086702
+User time: 0.030000
+System time: 0.050000
+
+Row 1 from block 4 deleted
+Real time: 0.000007
+User time: 0.000000
+System time: 0.000000
+
+Merged 309 pairs of files
+Real time: 0.056847
+User time: 0.020000
+System time: 0.040000
+
+shared
+------------------------------------------------
+Test trivial
+Array of blocks of size 50 was created
+Real time: 0.000095
+User time: 0.000000
+System time: 0.000000
+
+Merged 2 pairs of files
+Real time: 0.000051
+User time: 0.000000
+System time: 0.000000
+
+Row 2 from block 0 deleted
+Real time: 0.000003
+User time: 0.000000
+System time: 0.000000
+
+Block 1 deleted
+Real time: 0.000003
+User time: 0.000000
+System time: 0.000000
+
+Merged 2 pairs of files
+Real time: 0.000117
+User time: 0.000000
+System time: 0.000000
+
+------------------------------------------------
+Test easy
+Array of blocks of size 50 was created
+Real time: 0.000094
+User time: 0.000000
+System time: 0.000000
+
+Merged 29 pairs of files
+Real time: 0.001650
+User time: 0.000000
+System time: 0.000000
+
+------------------------------------------------
+Test medium
+Array of blocks of size 1500 was created
+Real time: 0.000028
+User time: 0.000000
+System time: 0.000000
+
+Merged 143 pairs of files
+Real time: 0.074043
+User time: 0.010000
+System time: 0.050000
+
+------------------------------------------------
+Test hard
+Array of blocks of size 2000 was created
+Real time: 0.000096
+User time: 0.000000
+System time: 0.000000
+
+Merged 184 pairs of files
+Real time: 0.055250
+User time: 0.010000
+System time: 0.040000
+
+Block 1 deleted
+Real time: 0.000366
+User time: 0.000000
+System time: 0.000000
+
+Block 2 deleted
+Real time: 0.000012
+User time: 0.000000
+System time: 0.000000
+
+Merged 260 pairs of files
+Real time: 0.077069
+User time: 0.030000
+System time: 0.050000
+
+Row 1 from block 4 deleted
+Real time: 0.000004
+User time: 0.000000
+System time: 0.000000
+
+------------------------------------------------
+Test harder
+Array of blocks of size 2000 was created
+Real time: 0.003107
+User time: 0.000000
+System time: 0.000000
+
+Merged 184 pairs of files
+Real time: 0.059719
+User time: 0.020000
+System time: 0.030000
+
+Block 1 deleted
+Real time: 0.000173
+User time: 0.000000
+System time: 0.000000
+
+Block 2 deleted
+Real time: 0.000013
+User time: 0.000000
+System time: 0.000000
+
+Merged 260 pairs of files
+Real time: 0.084493
+User time: 0.050000
+System time: 0.040000
+
+Row 1 from block 4 deleted
+Real time: 0.000004
+User time: 0.000000
+System time: 0.000000
+
+Merged 309 pairs of files
+Real time: 0.088511
+User time: 0.010000
+System time: 0.080000
+
+dynamic
+------------------------------------------------
+Test trivial
+Array of blocks of size 50 was created
+Real time: 0.000143
+User time: 0.000000
+System time: 0.000000
+
+Merged 2 pairs of files
+Real time: 0.000083
+User time: 0.000000
+System time: 0.000000
+
+Row 2 from block 0 deleted
+Real time: 0.000005
+User time: 0.000000
+System time: 0.000000
+
+Block 1 deleted
+Real time: 0.000005
+User time: 0.000000
+System time: 0.000000
+
+Merged 2 pairs of files
+Real time: 0.000097
+User time: 0.000000
+System time: 0.000000
+
+------------------------------------------------
+Test easy
+Array of blocks of size 50 was created
+Real time: 0.000115
+User time: 0.000000
+System time: 0.000000
+
+Merged 29 pairs of files
+Real time: 0.006754
+User time: 0.000000
+System time: 0.000000
+
+------------------------------------------------
+Test medium
+Array of blocks of size 1500 was created
+Real time: 0.000097
+User time: 0.000000
+System time: 0.000000
+
+Merged 143 pairs of files
+Real time: 0.079225
+User time: 0.010000
+System time: 0.060000
+
+------------------------------------------------
+Test hard
+Array of blocks of size 2000 was created
+Real time: 0.000046
+User time: 0.000000
+System time: 0.000000
+
+Merged 184 pairs of files
+Real time: 0.103771
+User time: 0.030000
+System time: 0.070000
+
+Block 1 deleted
+Real time: 0.000106
+User time: 0.000000
+System time: 0.000000
+
+Block 2 deleted
+Real time: 0.000012
+User time: 0.000000
+System time: 0.000000
+
+Merged 260 pairs of files
+Real time: 0.060745
+User time: 0.010000
+System time: 0.050000
+
+Row 1 from block 4 deleted
+Real time: 0.000006
+User time: 0.000000
+System time: 0.000000
+
+------------------------------------------------
+Test harder
+Array of blocks of size 2000 was created
+Real time: 0.000109
+User time: 0.000000
+System time: 0.000000
+
+Merged 184 pairs of files
+Real time: 0.064593
+User time: 0.000000
+System time: 0.050000
+
+Block 1 deleted
+Real time: 0.000842
+User time: 0.000000
+System time: 0.000000
+
+Block 2 deleted
+Real time: 0.000013
+User time: 0.000000
+System time: 0.000000
+
+Merged 260 pairs of files
+Real time: 0.066674
+User time: 0.030000
+System time: 0.050000
+
+Row 1 from block 4 deleted
+Real time: 0.000004
+User time: 0.000000
+System time: 0.000000
+
+Merged 309 pairs of files
+Real time: 0.092556
+User time: 0.010000
+System time: 0.070000
+

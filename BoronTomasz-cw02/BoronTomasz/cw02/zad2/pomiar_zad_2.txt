@@ -1,0 +1,24 @@
+Test for file: simple.txt sign: r
+Time for lib: 0.000000
+Test for file: simple.txt sign: r
+Time for sys: 0.000000
+Test for file: oneLineWith_a.txt sign: a
+Time for lib: 0.000000
+Test for file: oneLineWith_a.txt sign: a
+Time for sys: 0.000000
+Test for file: mid_len_rand.txt sign: O
+Time for lib: 0.000000
+Test for file: mid_len_rand.txt sign: O
+Time for sys: 0.000000
+Test for file: mid_len_rand.txt sign: 6
+Time for sys: 0.000000
+Test for file: mid_len_rand.txt sign: 6
+Time for lib: 0.000000
+Test for file: long_rand.txt sign: %
+Time for lib: 3.000000
+Test for file: long_rand.txt sign: %
+Time for sys: 7.000000
+Test for file: long_rand.txt sign: N
+Time for lib: 9.000000
+Test for file: long_rand.txt sign: N
+Time for sys: 20.00000

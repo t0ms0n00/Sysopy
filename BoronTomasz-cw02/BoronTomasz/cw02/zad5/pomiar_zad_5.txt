@@ -1,0 +1,22 @@
+Test for copy from: simple.txt to: copy.txt
+Time for lib: 0.000000
+Test for copy from: simple.txt to: copy_sys.txt
+Time for sys: 0.000000
+Test for copy from: large.txt to: large1.txt
+Time for lib: 2.000000
+Test for copy from: large.txt to: large2.txt
+Time for sys: 63.00000
+Test for copy from: large.txt to: large2.txt
+Time for sys: 56.00000
+Test for copy from: large.txt to: large1.txt
+Time for lib: 2.000000
+Test for copy from: large.txt to: largecreatedbyprogramm.txt
+Time for lib: 2.000000
+Test for copy from: simple.txt to: simplecreatedbysys.txt
+Time for sys: 0.000000
+Test for copy from: simple.txt to: simplecreatedbysys.txt
+Time for sys: 0.000000
+Test for copy from: simple.txt to: mozart.txt
+Time for lib: 0.000000
+Test for copy from: lorem_ipsum.txt to: break.txt
+Time for sys: 37.00000
